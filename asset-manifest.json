@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eet-fund-filter/static/css/main.c3519a5d.css",
+    "main.js": "/eet-fund-filter/static/js/main.b05f5872.js",
+    "static/js/453.06fedb52.chunk.js": "/eet-fund-filter/static/js/453.06fedb52.chunk.js",
+    "index.html": "/eet-fund-filter/index.html",
+    "main.c3519a5d.css.map": "/eet-fund-filter/static/css/main.c3519a5d.css.map",
+    "main.b05f5872.js.map": "/eet-fund-filter/static/js/main.b05f5872.js.map",
+    "453.06fedb52.chunk.js.map": "/eet-fund-filter/static/js/453.06fedb52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3519a5d.css",
+    "static/js/main.b05f5872.js"
+  ]
+}
