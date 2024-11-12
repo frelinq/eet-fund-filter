@@ -8,7 +8,7 @@ const Login = ({ onLogin }) => {
   const handleLogin = (event) => {
     event.preventDefault();
     // En enkel autentisering, här skulle du kunna lägga in en mer säker lösning
-    if (username === 'fredrik' && password === 'Iet89lsc') {
+    if (username === 'test' && password === 'test123') {
       onLogin(true); // Sätt autentisering till sann
     } else {
       alert('Felaktigt användarnamn eller lösenord');
