@@ -4,6 +4,7 @@ import FundFiltration from './components/FundFiltration';
 import AdminSettings from './components/AdminSettings'; 
 import Login from './components/Login'; // Importera Login-komponenten
 import './App.css';
+import ExcelToJsonFrontend from './components/exceltojson';
 
 const defaultSettings = {
   environment: [
@@ -116,6 +117,7 @@ function App() {
               <ul>
                 <li><Link to="/">Fondfiltrering</Link></li>
                 <li><Link to="/admin">Admininställningar</Link></li>
+                <li><Link to="/konvertera">Konvertera</Link></li>
                 <li>
                   <button onClick={handleLogout}>Logga ut</button> {/* Utloggningsknapp */}
                 </li>
@@ -131,6 +133,10 @@ function App() {
                 <Route 
                   path="/admin" 
                   element={<AdminSettings allDataPoints={allDataPoints} onSaveSettings={handleSaveSettings} initialSettings={settings} />} 
+                />
+                <Route
+                  path="/konvertera"
+                  element={<ExcelToJsonFrontend/>}
                 />
               </Routes>
             </div>
