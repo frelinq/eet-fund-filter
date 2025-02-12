@@ -11,7 +11,7 @@ const ExcelToJsonFrontend = () => {
         if (!data || data.length === 0) return null;
 
         const providers = [
-            'Folksam', 'Futur Pension', 'Länsförsäkringar', 'Movestic', 'SEB', 'Skandia', 'SPP'
+            'Folksam', 'Futur Pension', 'Länsförsäkringar', 'Movestic', 'SEB', 'Skandia', 'SPP', "MP"
         ];
 
         const providerCounts = providers.reduce((counts, provider) => {
