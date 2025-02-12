@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eet-fund-filter/static/css/main.c3519a5d.css",
-    "main.js": "/eet-fund-filter/static/js/main.886809c3.js",
+    "main.js": "/eet-fund-filter/static/js/main.d2f47cfd.js",
     "static/js/453.06fedb52.chunk.js": "/eet-fund-filter/static/js/453.06fedb52.chunk.js",
     "index.html": "/eet-fund-filter/index.html",
     "main.c3519a5d.css.map": "/eet-fund-filter/static/css/main.c3519a5d.css.map",
-    "main.886809c3.js.map": "/eet-fund-filter/static/js/main.886809c3.js.map",
+    "main.d2f47cfd.js.map": "/eet-fund-filter/static/js/main.d2f47cfd.js.map",
     "453.06fedb52.chunk.js.map": "/eet-fund-filter/static/js/453.06fedb52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3519a5d.css",
-    "static/js/main.886809c3.js"
+    "static/js/main.d2f47cfd.js"
   ]
 }
